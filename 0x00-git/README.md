@@ -28,6 +28,16 @@ Git is a version control software. Every developer should know how to use it.
 	-  `git reset [--mixed] HEAD~1`
 	- `git reset --soft HEAD~1`
 	- `git reset --hard HEAD~1`
+
+### How can I undo the last commit in Git?
+pd: in this situation the commit was made before doing push origin master
+- If you want to keep the local changes:
+`git reset [--mixed] HEAD~1`
+- If you also do not want to load the commit (just move the head to the previous one):
+`git reset --soft HEAD~1`
+- And if you don't want to keep them (and return to the state of the previous commit, in practice, destroy the last commit completely as if it never existed):
+`git reset --hard HEAD~1`
+
 ## Authors
 
  - [Kael1706](https://github.com/kael1706) Carlos Daniel Cortez
