@@ -9,9 +9,8 @@ Git is a version control software. Every developer should know how to use it.
 - `git clone <url_of_repository>` [🡆](https://github.com/kael1706/my-library/tree/master/0x00-git/pages/0x00)
 - `git status` [🡆](https://github.com/kael1706/my-library/tree/master/0x00-git/pages/0x00)
 - `git add` [🡆](https://github.com/kael1706/my-library/tree/master/0x00-git/pages/0x00)
-
-        - `git add .` [🡆](https://github.com/kael1706/my-library/tree/master/0x00-git/pages/0x00)
-        - `git add -A` [🡆](https://github.com/kael1706/my-library/tree/master/0x00-git/pages/0x00)
+	- `git add .`
+        - `git add -A`
 - `git commit -m <"msg">` [🡆](https://github.com/kael1706/my-library/tree/master/0x00-git/pages/0x00)
 - `git push` [🡆](https://github.com/kael1706/my-library/tree/master/0x00-git/pages/0x00)
         - `git push <branch_name>`
